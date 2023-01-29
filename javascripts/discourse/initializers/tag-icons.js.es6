@@ -43,6 +43,8 @@ function iconTagRenderer(tag, params) {
     tagIconHTML = `<span ${itemColor} class="tag-icon">${iconHTML(
       tagIcon[1]
     )}</span>`;
+  } else {
+    tagIconHTML = `<span class="tag-no-icon"></span>`;
   }
   /// End custom tag icon
 
